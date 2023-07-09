@@ -114,3 +114,18 @@ main{
 .about-info{
     text-align: center;
 }
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#what-i-do-deccription{
+    padding: 30px 150px;
+}
+.skills-conntainer{
+    display: flex;
+}
+.skills{
+}
