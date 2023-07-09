@@ -86,6 +86,9 @@ main{
     margin: 0 auto;
     /* alternative solution of flex center */
 }
+main section{
+    margin-top: 130px;
+}
 /* about me section style */
 .about{
     padding: 130px;
@@ -121,11 +124,52 @@ main{
     font-weight: 400;
     line-height: 30px;
 }
+
+/* what-i-do-deccription related styles */
+
 #what-i-do-deccription{
     padding: 30px 150px;
 }
 .skills-conntainer{
     display: flex;
+    gap: 24px;
+
 }
 .skills{
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* resume section style */
+.resume-container{
+    display: flex;
+}
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
