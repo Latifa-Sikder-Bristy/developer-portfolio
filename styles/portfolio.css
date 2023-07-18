@@ -237,10 +237,39 @@ textarea::placeholder {
     display: none;
 }
 @media screen and (max-width:576px){
-    .skills-conntainer{
+    .skills-conntainer, .resume-container{
         flex-direction: column;
     }
     #what-i-do-deccription{
+        padding: 20px;
+    }
+    .resume-container{
+        padding: 20px;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea{
+        width: 80%;
+    }
+    .resume-items hr{
+        width: auto;
+    }
+}
+@media screen and (min-width:576px) and (max-width:960px){
+    .skills-conntainer, .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
         padding: 20px;
     }
 }
